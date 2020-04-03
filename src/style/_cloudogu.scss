@@ -1,0 +1,42 @@
+//Custom Styles
+//Import Droid Sans from Google Fonts
+//TODO: move to head-Tag of app
+@import url(http://fonts.googleapis.com/css?family=Droid%20Sans:400i,300,400,700);
+
+//Custom Colors
+$cloudogu-blue: #23a3dd;
+$cloudogu-darker-blue: #00426B;
+$cloudogu-dark-blue: #0a4d6c;
+$cloudogu-medium-blue: #1b7daa;
+$cloudogu-gray: #878787;
+$cloudogu-green: #b8cd08;
+$cloudogu-yellow: #fec900;
+$cloudogu-red: #e43b53;
+
+//Custom Fonts
+$droid: 'Droid Sans', sans-serif;
+$mono: Consolas, "Liberation Mono", Courier, monospace;
+//Fonts applied in _type.scss
+
+//Theme
+//font-color of links etc.
+$color-info: $cloudogu-blue;
+
+//colors for get, post and delete changed to cloudogu-theme
+$_color-get: $cloudogu-blue;
+$_color-post: $cloudogu-green;
+$_color-delete: $cloudogu-red;
+
+//3. Custom Top-Bar
+$topbar-background-color: $cloudogu-darker-blue;
+
+$topbar-download-url-wrapper-element-border-color: $cloudogu-medium-blue;
+
+$topbar-download-url-button-background-color: $cloudogu-medium-blue;
+
+
+//Type-Colors
+//Default color of text changed to cloudogu-gray
+$text-body-default-font-color: $cloudogu-gray;
+$text-code-default-font-color: $cloudogu-gray;
+$text-headline-default-font-color: $cloudogu-gray;
