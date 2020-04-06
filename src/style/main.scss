@@ -1,5 +1,6 @@
 .swagger-ui
 {
+    @import 'cloudogu';//custom styles cloudogu-theme
     @import '~tachyons-sass/tachyons.scss';
     @import 'mixins';
     @import 'variables';
